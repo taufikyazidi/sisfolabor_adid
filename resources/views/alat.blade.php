@@ -10,7 +10,7 @@
         <div class="col-xl-12 mb-5 mb-xl-0">
             <div class="table-responsive">
 
-            <div class="col">
+            
             <form action="/alat/cari" method="GET" class="form-inline">
                 <input class="form-control" type="text" name="cari" placeholder="Cari Labor.." value="{{ old('cari')}}">
                 <input class="btn btn-primary ml-3" type="submit" value="CARI" >
@@ -18,7 +18,6 @@
 
 <br>
                 <a href="/alat/tambah" class="btn btn-default" > + Tambah Alat Baru </a>
-            </div>
 <br>
 <br>
 
