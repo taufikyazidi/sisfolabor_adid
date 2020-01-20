@@ -11,9 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/admin', function () {
     return view('templates.dashboard');
 });
+
+Route::get('/', function () {
+    return view('frontend');
+});
+Route::get('/laboratory', function () {
+    return view('laboratory');
+});
+
 
 //Labor
 Route::get('/labor', 'LaborController@index');

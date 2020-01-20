@@ -102,16 +102,14 @@
                     <!-- Navigation -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">
+                            <a class="nav-link" href="/admin">
                                 <i class="ni ni-tv-2 text-primary"></i> {{ __('Dashboard') }}
                             </a>
                         </li>
-                        <li class="nav-item">
-                                
-
-                                        <a class="nav-link" href="/alat">
-                                            <i class="ni ni-app text-pink"></i> {{ __('Alat') }}
-                                        </a>
+                        <li class="nav-item">    
+                        <a class="nav-link" href="/alat">
+                         <i class="ni ni-app text-pink"></i> {{ __('Alat') }}
+                        </a>
                               
                 
 
@@ -131,11 +129,6 @@
                                 <i class="ni ni-chart-pie-35 text-orange"></i> {{ __('Penggunaan') }}
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="ni ni-key-25 text-info"></i> {{ __('Login') }}
-                            </a>
-                        </li>
                 </li>
                     </ul>
                     <!-- Divider -->
@@ -144,13 +137,13 @@
         </div>
         </nav>
         <div class="main-content">
-            <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
-            <div class="container-fluid">
-                <div class="header-body">
+            <div class="header bg-gradient-primary pb-8 pt-12 pt-md-8">
+            <div class="container-fluid bg-gradient-primary">
+                
                     <!-- Card stats -->
-                    <div class="row">
+                    <div class="row bg-gradient-primary">
                         <div class="col-xl-3 col-lg-6">
-                            <div class="card card-stats mb-4 mb-xl-0">
+                            <div class="card card-stats  mb-4 mb-xl-0">
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
@@ -234,10 +227,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+               
             </div>
             </div>
-            <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark">
+            <nav class="navbar navbar-top navbar-horizontal navbar-expand-md navbar-dark bg-gradient-primary">
             <div class="container px-4">
                 <a class="navbar-brand" href=" ">
                     <strong> <h1 class="text-white">SISTEM INFORMASI LABOR </h1></strong>
@@ -265,39 +258,21 @@
                     <!-- Navbar items -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href=" ">
+                            <a class="nav-link nav-link-icon" href="/">
                                 <i class="ni ni-planet"></i>
-                                <span class="nav-link-inner--text">{{ __('Dashboard') }}</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href=" ">
-                                <i class="ni ni-circle-08"></i>
-                                <span class="nav-link-inner--text">{{ __('Register') }}</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href=" ">
-                                <i class="ni ni-key-25"></i>
-                                <span class="nav-link-inner--text">{{ __('Login') }}</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-link-icon" href=" ">
-                                <i class="ni ni-single-02"></i>
-                                <span class="nav-link-inner--text">{{ __('Profile') }}</span>
+                                <span class="nav-link-inner--text">{{ __('Goes to Front Office') }}</span>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
             </nav>
-            <div class="container-fluid mt--7">
+            <div class="container-fluid mt--7 bg-gradient-primary">
                 @yield('content')
             </div>
             
         </div>
-        <footer class="py-6">
+        <footer class="py-8 bg-gradient-primary">
             
         </footer>
     </body>
